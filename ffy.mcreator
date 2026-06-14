@@ -1,0 +1,677 @@
+{
+  "mod_elements": [
+    {
+      "name": "Avocado",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avocado",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/models/item/avocado.json",
+          "src/main/java/net/mcreator/ffy/item/AvocadoItem.java",
+          "src/main/resources/assets/ffy/items/avocado.json"
+        ]
+      }
+    },
+    {
+      "name": "Boring",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boring",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Roastedchickenleg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roastedchickenleg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/models/item/roastedchickenleg.json",
+          "src/main/resources/assets/ffy/items/roastedchickenleg.json",
+          "src/main/java/net/mcreator/ffy/item/RoastedchickenlegItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Boring2",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boring_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/loot_table/chests/boring_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Stay",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stay",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/items/stay.json",
+          "src/main/resources/data/ffy/jukebox_song/stay.json",
+          "src/main/resources/assets/ffy/models/item/stay.json",
+          "src/main/java/net/mcreator/ffy/item/StayItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Roastedchickenlegpf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roastedchickenlegpf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/recipe/roastedchickenlegpf.json"
+        ]
+      }
+    },
+    {
+      "name": "Newmiusic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newmiusic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/advancement/newmiusic.json"
+        ]
+      }
+    },
+    {
+      "name": "Foodblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/models/block/foodblock.json",
+          "src/main/resources/assets/ffy/models/item/foodblock.json",
+          "src/main/resources/assets/ffy/items/foodblock.json",
+          "src/main/resources/assets/ffy/blockstates/foodblock.json",
+          "src/main/resources/data/ffy/loot_table/blocks/foodblock.json",
+          "src/main/java/net/mcreator/ffy/block/FoodblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Foodblock2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodblock_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/recipe/foodblock_2.json"
+        ]
+      }
+    },
+    {
+      "name": "FoodblockShiTiZaiFangKuaiShangXingZouShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodblock_shi_ti_zai_fang_kuai_shang_xing_zou_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ffy/procedures/FoodblockShiTiZaiFangKuaiShangXingZouShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nofoodblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nofoodblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/items/nofoodblock.json",
+          "src/main/resources/assets/ffy/models/item/nofoodblock.json",
+          "src/main/resources/data/ffy/loot_table/blocks/nofoodblock.json",
+          "src/main/resources/assets/ffy/blockstates/nofoodblock.json",
+          "src/main/java/net/mcreator/ffy/block/NofoodblockBlock.java",
+          "src/main/resources/assets/ffy/models/block/nofoodblock.json"
+        ]
+      }
+    },
+    {
+      "name": "NofoodblockShiTiZaiFangKuaiShangXingZouShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nofoodblock_shi_ti_zai_fang_kuai_shang_xing_zou_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ffy/procedures/NofoodblockShiTiZaiFangKuaiShangXingZouShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Nevada",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nevada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffy/item/NevadaItem.java",
+          "src/main/resources/assets/ffy/models/item/nevada.json",
+          "src/main/resources/data/ffy/jukebox_song/nevada.json",
+          "src/main/resources/assets/ffy/items/nevada.json"
+        ]
+      }
+    },
+    {
+      "name": "Boring3",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boring_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffy/world/features/treedecorators/Boring3LeaveDecorator.java",
+          "src/main/java/net/mcreator/ffy/world/features/treedecorators/Boring3FruitDecorator.java",
+          "src/main/resources/data/ffy/worldgen/biome/boring_3.json",
+          "src/main/resources/data/ffy/worldgen/placed_feature/boring_3_tree.json",
+          "src/main/resources/data/ffy/worldgen/configured_feature/boring_3_tree.json",
+          "src/main/java/net/mcreator/ffy/world/features/treedecorators/Boring3TrunkDecorator.java"
+        ]
+      }
+    },
+    {
+      "name": "FoodTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/neoforge/biome_modifier/food_tree_biome_modifier.json",
+          "src/main/resources/data/ffy/worldgen/configured_feature/food_tree.json",
+          "src/main/resources/data/ffy/worldgen/placed_feature/food_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Food",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/recipe/food.json",
+          "src/main/resources/data/ffy/advancement/recipes/food.json"
+        ]
+      }
+    },
+    {
+      "name": "Boring1",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boring_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/models/block/boring_1_portal_ew.json",
+          "src/main/resources/assets/ffy/blockstates/boring_1_portal.json",
+          "src/main/resources/assets/ffy/items/boring_1.json",
+          "src/main/resources/data/ffy/dimension/boring_1.json",
+          "src/main/java/net/mcreator/ffy/world/teleporter/Boring1PortalShape.java",
+          "src/main/java/net/mcreator/ffy/item/Boring1Item.java",
+          "src/main/resources/assets/ffy/models/item/boring_1.json",
+          "src/main/resources/data/ffy/dimension_type/boring_1.json",
+          "src/main/resources/assets/ffy/models/block/boring_1_portal_ns.json",
+          "src/main/java/net/mcreator/ffy/world/dimension/Boring1Dimension.java",
+          "src/main/java/net/mcreator/ffy/block/Boring1PortalBlock.java",
+          "src/main/java/net/mcreator/ffy/world/teleporter/Boring1Teleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "FoodPath",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_path",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/painting_variant/food_path.json"
+        ]
+      }
+    },
+    {
+      "name": "FoodPath32x32",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_path_32x_32",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/painting_variant/food_path_32x_32.json"
+        ]
+      }
+    },
+    {
+      "name": "UngoodFood",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ungood_food",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/damage_type/ungood_food.json"
+        ]
+      }
+    },
+    {
+      "name": "Ungoodfoodxg",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ungoodfoodxg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffy/potion/UngoodfoodxgMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "UngoodfoodxgZhuangTaiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ungoodfoodxg_zhuang_tai_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ffy/procedures/UngoodfoodxgZhuangTaiXiaoGuoKaiShiYingYongShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "UngoodFoodys",
+      "type": "potion",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ungood_foodys",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "UngoodKaojituiWanJiaWanChengShiYongWuPinShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ungood_kaojitui_wan_jia_wan_cheng_shi_yong_wu_pin_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ffy/procedures/UngoodKaojituiWanJiaWanChengShiYongWuPinShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "UngoodKaojitui",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ungood_kaojitui",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/items/ungood_kaojitui.json",
+          "src/main/java/net/mcreator/ffy/item/UngoodKaojituiItem.java",
+          "src/main/resources/assets/ffy/models/item/ungood_kaojitui.json"
+        ]
+      }
+    },
+    {
+      "name": "FoodPortalActivator",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_portal_activator",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/recipe/food_portal_activator.json",
+          "src/main/resources/data/ffy/advancement/recipes/food_portal_activator.json"
+        ]
+      }
+    },
+    {
+      "name": "FoodWoodGuFenChengGongShiYongShi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_wood_gu_fen_cheng_gong_shi_yong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/ffy/procedures/FoodWoodGuFenChengGongShiYongShiProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "FoodWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/ffy/models/item/food_wood.json",
+          "src/main/resources/assets/ffy/models/block/food_wood.json",
+          "src/main/java/net/mcreator/ffy/block/FoodWoodBlock.java",
+          "src/main/resources/data/ffy/loot_table/blocks/food_wood.json",
+          "src/main/resources/assets/ffy/blockstates/food_wood.json",
+          "src/main/resources/assets/ffy/items/food_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Foodwoodenboard",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foodwoodenboard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/ffy/block/FoodwoodenboardBlock.java",
+          "src/main/resources/assets/ffy/items/foodwoodenboard.json",
+          "src/main/resources/assets/ffy/blockstates/foodwoodenboard.json",
+          "src/main/resources/assets/ffy/models/block/foodwoodenboard.json",
+          "src/main/resources/assets/ffy/models/item/foodwoodenboard.json",
+          "src/main/resources/data/ffy/loot_table/blocks/foodwoodenboard.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodenboard",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodenboard",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/recipe/woodenboard.json"
+        ]
+      }
+    },
+    {
+      "name": "Woodenboard2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodenboard_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ffy/recipe/woodenboard_2.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "stay",
+      "files": [
+        "stay_320pagaiworld.com"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "nevada",
+      "files": [
+        "vicetone_cozi_zuehlsdorff_-_nevada"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:UngoodKaojitui",
+      "~CUSTOM:Roastedchickenleg"
+    ],
+    "ITEMS:minecraft:piglin_loved": [
+      "~CUSTOM:Nevada",
+      "~CUSTOM:Roastedchickenleg"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Nevada",
+      "~CUSTOM:Stay"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/igloo": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft_mesa": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/pillager_outpost": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/woodland_mansion": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/jungle_temple": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/swamp_hut": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_monument": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/buried_treasure": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fossil": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/bastion_remnant": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/village_plains": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/ocean_ruin_warm": [
+      "~CUSTOM:Boring3"
+    ],
+    "BIOMES:minecraft:has_structure/ruined_portal_standard": [
+      "~CUSTOM:Boring3"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.MOSS_BLOCK",
+      "~Blocks.JUNGLE_WOOD",
+      "~CUSTOM:Foodblock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:FoodWood"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ffy.avocado": "Avocado",
+      "item_group.ffy.boring": "Boring Items",
+      "item.ffy.roastedchickenleg": "Roasted chicken leg",
+      "subtitles.stay": "",
+      "item.ffy.stay.desc": "stay",
+      "item.ffy.stay": "Stay",
+      "advancements.newmiusic.title": "New miusic！",
+      "advancements.newmiusic.descr": "Obtain new records added by the mod",
+      "item.ffy.foodblock": "FoodBlock",
+      "item.ffy.nofoodblock": "noFoodBlock",
+      "subtitles.nevada": "",
+      "item.ffy.nevada": "Nevada",
+      "item.ffy.nevada.desc": "Nevada",
+      "biome.ffy.boring_3": "Boring1",
+      "item.ffy.boring_1": "Boring 1 Portal Igniter",
+      "painting.ffy.food_path.title": "Food Dimension: Tree",
+      "painting.ffy.food_path.author": "FFY",
+      "painting.ffy.food_path_32x_32.author": "FFY",
+      "painting.ffy.food_path_32x_32.title": "Food Dimension: Portal",
+      "death.attack.ungood_food.item": "%1$s ate spoiled %3$s and paid the price",
+      "death.attack.ungood_food.player": "%1$s died whilst trying to escape the inevitable food poisoning",
+      "death.attack.ungood_food": "%1$s was killed by spoiled food",
+      "effect.ffy.ungoodfoodxg": "Spoiled",
+      "item.minecraft.potion.effect.ungood_foodys": "Spoiled Food Potion",
+      "item.minecraft.lingering_potion.effect.ungood_foodys": "Lingering Potion of Spoiled Food",
+      "item.minecraft.tipped_arrow.effect.ungood_foodys": "Arrow of Spoiled Food",
+      "item.minecraft.splash_potion.effect.ungood_foodys": "Splash Potion of Ungood Food",
+      "item.ffy.ungood_kaojitui": "Splash Roasted chicken leg",
+      "item.ffy.food_wood": "Food Wood",
+      "item.ffy.foodwoodenboard": "Foodwoodenboard"
+    },
+    "zh_cn": {
+      "item.ffy.avocado": "牛油果",
+      "item_group.ffy.boring": "无聊的物品们",
+      "item.ffy.roastedchickenleg": "烤鸡腿",
+      "subtitles.stay": "",
+      "item.ffy.stay.desc": "stay",
+      "item.ffy.stay": "Stay",
+      "advancements.newmiusic.title": "新唱片！",
+      "advancements.newmiusic.descr": "获得mod添加的新唱片",
+      "item.ffy.foodblock": "食物块",
+      "item.ffy.nofoodblock": "反食物块",
+      "subtitles.nevada": "",
+      "item.ffy.nevada": "Nevada",
+      "item.ffy.nevada.desc": "Nevada",
+      "biome.ffy.boring_3": "Boring1",
+      "item.ffy.boring_1": "食物维度传送门激活器",
+      "painting.ffy.food_path.title": "食物维度：树",
+      "painting.ffy.food_path.author": "FFY",
+      "painting.ffy.food_path_32x_32.author": "FFY",
+      "painting.ffy.food_path_32x_32.title": "食物维度：传送门",
+      "death.attack.ungood_food.item": "%1$s 吃了变质的 %3$s 付出了代价",
+      "death.attack.ungood_food.player": "%1$s 在试图逃离不可避免的食物中毒时死亡",
+      "death.attack.ungood_food": "%1$s 被变质食物杀死了",
+      "effect.ffy.ungoodfoodxg": "变质",
+      "item.minecraft.potion.effect.ungood_foodys": "变质药水",
+      "item.minecraft.lingering_potion.effect.ungood_foodys": "滞留型变质药水",
+      "item.minecraft.tipped_arrow.effect.ungood_foodys": "变质食物之箭",
+      "item.minecraft.splash_potion.effect.ungood_foodys": "喷溅型变质食物药水",
+      "item.ffy.ungood_kaojitui": "变质烤鸡腿",
+      "item.ffy.food_wood": "Food Wood",
+      "item.ffy.foodwoodenboard": "Foodwoodenboard"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/ffy/init/FfyModMobEffects.java",
+      "src/main/java/net/mcreator/ffy/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/ffy/init/FfyModBiomes.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/ffy/init/FfyModPotions.java",
+      "src/main/java/net/mcreator/ffy/init/FfyModBlocks.java",
+      "src/main/java/net/mcreator/ffy/init/FfyModItems.java",
+      "src/main/resources/assets/ffy/sounds.json",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/ffy.mixins.json",
+      "src/main/java/net/mcreator/ffy/FfyMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/ffy/init/FfyModSounds.java",
+      "src/main/java/net/mcreator/ffy/init/FfyModTabs.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ffy",
+    "modName": "FFY",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.ffy"
+  },
+  "mcreatorVersion": 202600114619
+}
