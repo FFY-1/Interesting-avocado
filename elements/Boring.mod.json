@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "tab",
+  "definition": {
+    "name": "无聊的物品们",
+    "icon": {
+      "value": "CUSTOM:Avocado"
+    },
+    "showSearch": true
+  }
+}

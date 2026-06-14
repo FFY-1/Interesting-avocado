@@ -1,0 +1,49 @@
+{
+  "_fv": 85,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Foodwoodenboard"
+      },
+      {
+        "value": "CUSTOM:Foodwoodenboard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Foodwoodenboard"
+      },
+      {
+        "value": "CUSTOM:Foodwoodenboard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "name": "woodenboard_2",
+    "namespace": "mod"
+  }
+}

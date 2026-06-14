@@ -1,0 +1,86 @@
+{
+  "_fv": 85,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Boring3"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "snowy_tundra"
+      },
+      {
+        "value": "void"
+      }
+    ],
+    "biomesInDimensionCaves": [],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.MOSS_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "Blocks.WATER"
+    },
+    "seaLevel": 50,
+    "generateOreVeins": true,
+    "generateAquifers": true,
+    "horizontalNoiseSize": 2,
+    "verticalNoiseSize": 1,
+    "defaultEffects": "overworld",
+    "useCustomEffects": true,
+    "hasClouds": true,
+    "cloudHeight": 90,
+    "skyType": "NONE",
+    "airColor": {
+      "value": -13159,
+      "falpha": 0.0
+    },
+    "sunHeightAffectsFog": true,
+    "canRespawnHere": true,
+    "hasFog": false,
+    "ambientLight": 0.0,
+    "doesWaterVaporize": false,
+    "hasFixedTime": false,
+    "fixedTimeValue": 0,
+    "coordinateScale": 1.0,
+    "infiniburnTag": "minecraft:infiniburn_overworld",
+    "bedWorks": true,
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "piglinSafe": true,
+    "hasRaids": false,
+    "minMonsterSpawnLightLimit": 1,
+    "maxMonsterSpawnLightLimit": 1,
+    "monsterSpawnBlockLightLimit": 0,
+    "portalFrame": {
+      "value": "CUSTOM:Foodblock"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "CUSTOM:nevada"
+    },
+    "enableIgniter": true,
+    "igniterName": "Boring 1 Portal Igniter",
+    "igniterRarity": "EPIC",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "TOOLS"
+      },
+      {
+        "value": "CUSTOM:Boring"
+      }
+    ],
+    "texture": "kao_ji_tui__16x16",
+    "portalTexture": "food_block",
+    "enablePortal": true
+  }
+}

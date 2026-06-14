@@ -1,0 +1,11 @@
+{
+  "_fv": 85,
+  "_type": "painting",
+  "definition": {
+    "texture": "foodpath32x32",
+    "width": 32,
+    "height": 32,
+    "title": "Food Path:Portal",
+    "author": "FFY"
+  }
+}

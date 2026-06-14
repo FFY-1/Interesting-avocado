@@ -1,0 +1,12 @@
+{
+  "_fv": 85,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 2.5,
+    "scaling": "always",
+    "effects": "drowning",
+    "normalDeathMessage": "%1$s was killed by spoiled food",
+    "itemDeathMessage": "%1$s ate spoiled %3$s and paid the price",
+    "playerDeathMessage": "%1$s died whilst trying to escape the inevitable food poisoning"
+  }
+}

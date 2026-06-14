@@ -1,0 +1,24 @@
+{
+  "_fv": 85,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "deteriorated",
+    "icon": "ungoodfood",
+    "color": {
+      "value": -13395712,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": "entity.player.burp"
+    },
+    "isInstant": true,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": true,
+    "modifiers": [],
+    "onStarted": {
+      "name": "UngoodfoodxgZhuangTaiXiaoGuoKaiShiYingYongShi"
+    }
+  }
+}
